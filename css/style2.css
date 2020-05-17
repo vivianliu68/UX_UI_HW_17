@@ -1,0 +1,75 @@
+body {
+  font-family: 'open sans', sans-serif;
+}
+
+ #navBar {
+  display: grid;
+  flex-direction: row;
+  margin: 0px 5%;
+  background-color: white;
+  color: #7D8D8D;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+  font-family: Open Sans;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.highlight {
+  color: #7AA2AD;
+  font-weight: 600;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  width: 25%;
+}
+
+.icons img {
+  margin: 2px;
+  align-items: bottom;
+}
+
+
+ body {
+        background-color: #D5CDCB;
+      }
+
+h1 {
+        color: white;
+        font-family: 'Cormorant Infant';
+        font-size: 212px;
+    }
+
+h1 {
+        color: white;
+        font-family: 'Cormorant Infant';
+        font-size: 75px;
+    }
+
+.hero {
+  width: 80%;
+
+}
+
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+  "featuredProduct secondaryProduct"
+  "featuredProduct CTA";
+}
+
+
