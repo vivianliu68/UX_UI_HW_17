@@ -18,6 +18,7 @@ body {
 nav {
   width: 73%;
   padding: 1%;
+  background-color: white;
 }
 
 
@@ -32,13 +33,15 @@ ul {
 }
 
 .content {
-  width: 500px;
+  width: 800px;
   margin: 0 auto;
+  background-color: #DECCCE;
 }
 
 footer {
   background-color: #373738;
   padding: 2px;
+  color: blanchedalmond;
 }
 
 ul {
