@@ -15,37 +15,56 @@ body {
   text-align: center;
 }
 
-nav {
+.nav {
   width: 73%;
   padding: 1%;
   background-color: white;
+ 
 }
 
-
-ul {
+.ul {
   width: 50%;
   margin-left: auto;
+  display: inline-block;
 }
 
+
+
 .heroImg {
-  height: 600px;
+  height: 30%;
   padding: 25px
 }
 
+h1 {
+  font-family: garamond;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+h2 {
+  font-family: open sans;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 34px;
+
+}
+
 .content {
-  width: 800px;
+  width: flex;
   margin: 0 auto;
+  padding: 40px;
   background-color: #DECCCE;
 }
 
-footer {
+.footer {
   background-color: #373738;
   padding: 2px;
   color: blanchedalmond;
 }
 
-ul {
+.footer ul {
   display: inline-block;
   vertical-align: top;
+  height: 80px;
 }
 
