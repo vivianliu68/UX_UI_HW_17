@@ -5,39 +5,31 @@
   nav {
     background-color: white;
     display: inline-block;
+   
   }
 
- .topNav {
-    vertical-align: top;
+  .topNav {
+    display: flex;
     text-decoration: none;
-    width:73%;
-    padding: 1%;
-    float: left;
-  }
-
-  .logo {
-    width: 23%;
-    padding: 1%;
-    align-items: ;
-    text-align: center;
-    background-color: white;
-  }
-
-  ul {
-    width: 100%;
-    margin-left: auto;
-    list-style-type: none;
-  }
-
-  li {
-    margin-left: auto;
-    display: inline;
-    padding: 8px;
-    float: right;
+    align-items: center;
+    justify-content: left;
+    padding: 14px;
   }
   
-  .heroImg {
-    height: 30%;
+  .logo {
+    width: 50px;
+    background-color: white;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+    padding: 8px;
+  }
+  
+  #heroImg {
+    width: 30%;
     padding: 10px
   }
   
@@ -65,10 +57,12 @@
     background-color: #373738;
     padding: 2px;
     color: rgb(250, 241, 226);
+    justify-content: center;
   }
 
   .footer ul {
     display: inline-block;
     vertical-align: top;
     height: 80px;
+  
   }
