@@ -1,0 +1,150 @@
+body {
+  font-family: 'open sans', sans-serif;
+}
+
+nav {
+  border: solid 1px red;
+  background-color: white;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 30px;
+}
+
+.topNav {
+  border: solid 1px white;
+  display: flex;
+  text-decoration: none;
+  margin-right: 20px;
+  align-items: center;
+  padding: 10px;
+  margin-right: 40px;
+  color: #7AA2AD;   
+}
+  
+.logo {
+  width: 74px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+}
+  
+/* Category Grid CSS */
+
+.sectionBox {
+  border: solid 1px red;
+  background-color:#F2F0EF;
+  text-align: center;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.aboutme {
+  background-color;
+  border: solid 1px red;
+  display: inline-block;
+  width: 30%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+  
+.aboutme :hover {
+  background-color:#D3B4B9;
+  width: 100%;
+  height: 80%;
+  color: #F2F0EF;
+  text-align: cneter;
+  }
+
+
+.uxui {
+  background-color:;
+  border: solid 1px red;
+  display: inline-block;
+  width: 30%;
+  margin-right: 10px;
+}
+
+   
+.uxui :hover {
+  background-color:#856E71;
+  width: 100%;
+  height: 80%;
+  color: #F2F0EF;
+  text-align: cneter;
+}
+
+      
+.visual {
+  background-color:;
+  border: solid 1px red;
+  display: inline-block;
+  width: 30%;
+  margin-right: 10px;
+}
+
+ 
+.visual :hover {
+  background-color:#7AA2AD;
+  width: 100%;
+  height: 80%;
+  color: #F2F0EF;
+  text-align: cneter;
+}
+
+.emptyBox {
+  background-color:#F2F0EF;
+  height: 20px ;
+  border: solid 1px red;
+}
+
+
+h1 {
+  font-family: 'Playfair Display';
+  font-size: 300%;
+  font-weight: 200;
+  float: left;
+  color: #D3B4B9;
+  text-align: center;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Playfair Display';
+  font-size: 300%;
+  font-weight: 200;
+  float: left;
+  color: #856E71;
+}
+ 
+h3 {
+  font-family: 'Playfair Display';
+  font-size: 300%;
+  font-weight: 200;
+  float: left;
+  color: #7AA2AD;
+}
+
+.footer {  
+  background-color: #373738;
+  padding: 10px;
+  color: rgb(250, 241, 226);
+ 
+}
+
+.footer ul {  
+  display: inline;
+  font-size: 14px;
+  font-weight: lighter;
+  float: right;
+}

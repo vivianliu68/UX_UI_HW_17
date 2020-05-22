@@ -1,68 +1,117 @@
-  body {
-    font-family: 'open sans', sans-serif;
-  }
+body {
+  font-family: 'open sans', sans-serif;
+}
 
-  nav {
-    background-color: white;
-    display: inline-block;
-   
-  }
+nav {
+  border: solid 1px red;
+  background-color: white;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 30px;
+}
 
-  .topNav {
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    justify-content: left;
-    padding: 14px;
-  }
+.topNav {
+  border: solid 1px white;
+  display: flex;
+  text-decoration: none;
+  margin-right: 20px;
+  align-items: center;
+  padding: 10px;
+  margin-right: 40px;
+  color: #7AA2AD;   
+}
   
-  .logo {
-    width: 50px;
-    background-color: white;
-  }
-  ul {
-    list-style-type: none;
-  }
-  li {
-    display: inline;
-    padding: 8px;
-  }
-  
+.logo {
+  width: 74px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+}
+
+  /* Category Grid CSS */
+section {
+  background-color:#E0D3D4;
+}
+
+ .firstBox {
+  background-color:#E0D3D4;
+  border: solid 1px red;
+
+ }
+
+ 
   #heroImg {
     width: 30%;
-    padding: 10px
+    padding: 10px;
+    border-color: cornsilk;  
+    display: inline-block;
   }
   
+  
+  #bodyText {
+    padding: 40px;
+    display: inline-block;
+  }
+ 
+
   h1 {
-    font-family: garamond;
-    font-size: 40px;
+    font-family: 'Playfair Display';
+    font-size: 100px;
     font-weight: 200;
+    float: left;
+    color: white;
   }
 
   h2 {
-    font-family: open sans;
-    font-size: 18px;
-    font-weight: 200;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
     line-height: 34px;
   }
 
-  .content {
-    width: flex;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #DECCCE;
+  h3 {
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 42px;
   }
 
-  .footer {
+  h4{
+    color:#A58F92;
+    font-family: 'Playfair Display';
+    font-size: 100px;
+    font-weight: 200;
+    float: left;
+  }
+
+  h5{
+    color:#94AEB7;
+    font-family: 'Playfair Display';
+    font-size: 100px;
+    font-weight: 200;
+    float: left;
+  }
+ 
+
+  .footer {  
     background-color: #373738;
-    padding: 2px;
+    padding: 10px;
     color: rgb(250, 241, 226);
-    justify-content: center;
+   
   }
-
-  .footer ul {
-    display: inline-block;
-    vertical-align: top;
-    height: 80px;
   
+  .footer ul {  
+    display: inline;
+    font-size: 14px;
+    font-weight: lighter;
+    float: right;
   }

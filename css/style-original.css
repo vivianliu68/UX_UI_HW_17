@@ -1,0 +1,117 @@
+  body {
+    font-family: 'open sans', sans-serif;
+  }
+
+  nav {
+    background-color: white;
+    display: inline-block;
+   
+  }
+
+  .topNav {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: left;
+    padding: 14px;
+  }
+  
+  .logo {
+    width: 50px;
+    background-color: white;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+    padding: 8px;
+  }
+  
+  #heroImg {
+    width: 20%;
+    padding: 10px;
+    border-color: cornsilk;  
+  }
+
+  /* Category Grid CSS */
+
+.subHeading {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  #categoryGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 100px 300px 600px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "myName heroImg uxuiDesigner"
+    "bodyText bodyText"
+    ;
+  }
+  
+ 
+  #myName {
+    grid-area: myName;
+  }
+  
+  #heroImg {
+    grid-area: heroImg;
+  }
+  
+  #uxuiDesigner {
+    grid-area: uxuiDesigner;
+  }
+  
+  #bodyText {
+    grid-area: bodyText;
+  }
+  
+  .categoryGridArea {
+    display: grid;
+    align-content: end;
+  }
+  
+
+
+  h1 {
+    font-family: 'Cormorant Garamond';
+    font-size: 46px;
+    font-weight: 200;
+    float: left;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond';
+    font-size: 32px;
+    color: white;
+    font-weight: 300;
+    line-height: 34px;
+  }
+
+  h3 {
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 34px;
+  }
+
+ 
+
+  .footer {
+    background-color: #373738;
+    padding: 2px;
+    color: rgb(250, 241, 226);
+    justify-content: center;
+  }
+
+  .footer ul {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+  
+  }
