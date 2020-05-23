@@ -1,0 +1,141 @@
+body {
+  font-family: 'open sans', sans-serif;
+  background-image: url("../images/aboutme-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+nav {
+  background-color: white;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  width: 100%;
+}
+
+.topNav {
+  display: flex;
+  text-decoration: none;
+  margin-right: 40px;
+  align-items: center;
+  padding: 8px;
+  color: #7AA2AD;   
+  
+}
+  
+.logo {
+  width: 80px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 12px;
+}
+  
+/* Category Grid CSS */
+
+h1 {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 3px; 
+  float: left;
+  color:#314E4E
+} 
+
+p {
+  line-height: 170%;
+  font-family: 'open sans';
+  font-weight: 200;
+  font-size: 14px;
+  color: #1F1F1F;
+  letter-spacing: 1px;
+}
+
+.footer {  
+  display: flex;
+  background-color: #747474;
+  padding: 10px;
+  color: rgb(250, 241, 226);
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+
+}
+
+.footer li {  
+  font-size: 12px;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.socialIcons{
+float: left;
+}
+
+/* Category Grid CSS */
+
+  
+  #categoryGrid {
+    margin: 10px 5%;
+    display: grid;
+    grid-template-rows: 240px 320px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "vivian about about about"
+    "vivian skill moreskill tools";
+  }
+
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    display: grid;
+    align-content: top;
+  }
+  
+  .heading {
+    font-family: 'Playfair Display';
+    padding: 15px;
+    height: 25px;
+    color: #314E4E;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 4px; 
+  }
+
+  #skill {
+    grid-area: skill;
+  }
+  
+  #moreskill {
+    grid-area: moreskill;
+  }
+
+  #tools {
+    grid-area: tools;  
+  }
+  
+  #about {
+    grid-area: about;
+  }
+  
+  #vivian {
+    align-items: middle;
+    grid-area: vivian; 
+  }
+  
+  
+  
+  /* body ends */
+  /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */

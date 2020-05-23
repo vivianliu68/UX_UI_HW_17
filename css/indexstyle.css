@@ -2,29 +2,31 @@ body {
   font-family: 'open sans', sans-serif;
 }
 
+/* NAVI CSS */
+
 nav {
-  border: solid 1px red;
   background-color: white;
   display: inline-block;
-  font-size: 16px;
-  font-weight: lighter;
-  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  width: 100%;
 }
 
 .topNav {
-  border: solid 1px white;
   display: flex;
   text-decoration: none;
-  margin-right: 20px;
-  align-items: center;
-  padding: 10px;
   margin-right: 40px;
+  align-items: center;
+  padding: 8px;
   color: #7AA2AD;   
+  
 }
   
 .logo {
-  width: 74px;
+  width: 80px;
   background-color: white;
+  margin-right: 10px;
 }
 
 ul {
@@ -33,119 +35,104 @@ ul {
 
 li {
   display: inline;
-  padding: 8px;
+  padding: 12px;
 }
   
-/* Category Grid CSS */
 
-.sectionBox {
-  border: solid 1px red;
-  background-color:#F2F0EF;
-  text-align: center;
-  padding: 60px;
-  display: flex;
-  justify-content: center;
-  height: 400px;
+/* HERO CSS */
+
+#intro {
+  background-color: #E0D3D4;
+  margin-left: 80px;
+  margin-top: 10px;
 }
-
-.aboutme {
-  background-color:none;
-  border: solid 1px red;
-  display: inline-block;
-  width: 30%;
-  margin-right: 10px;
-  padding: 10px;
-  text-align: center;
-}
-
   
-.aboutme :hover {
-  background-color:#D3B4B9;
+.categoryGridArea { 
+  background-color: #E0D3D4;
   width: 100%;
-  height: 80%;
-  color: #F2F0EF;
-  text-align: center;
-  }
-
-
-.uxui {
-  background-color:none;
-  border: solid 1px red;
-  display: inline-block;
-  width: 30%;
-  margin-right: 10px;
+  height: 100%;
+  margin: 0px;
+}
+  
+.hiVivian {
+  display:inline-block;
 }
 
-   
-.uxui :hover {
-  background-color:#856E71;
-  width: 100%;
-  height: 80%;
-  color: #F2F0EF;
-  text-align: cneter;
-}
-
-      
-.visual {
-  background-color:none;
-  border: solid 1px red;
-  display: inline-block;
-  width: 30%;
-  margin-right: 10px;
-}
-
- 
-.visual :hover {
-  background-color:#7AA2AD;
-  width: 100%;
-  height: 80%;
-  color: #F2F0EF;
-  text-align: cneter;
-}
-
-.emptyBox {
-  background-color:#F2F0EF;
-  height: 20px ;
-  border: solid 1px red;
-}
-
+.about {
+  display:inline-block;
+} 
 
 h1 {
   font-family: 'Playfair Display';
-  font-size: 300%;
-  font-weight: 200;
+  font-size: 94px;
+  font-weight: 100;
+  letter-spacing: 2px; 
   float: left;
-  color: #D3B4B9;
-  text-align: center;
-  text-decoration: none;
-}
+  color: white;
+} 
 
 h2 {
   font-family: 'Playfair Display';
-  font-size: 300%;
-  font-weight: 200;
+  font-style: italic;
+  font-size: 38px;
+  font-weight: 100;
+  letter-spacing: 1px; 
   float: left;
-  color: #856E71;
+  color:#7E6266;
+} 
+
+/* CASE STUDY CSS */ 
+
+#caseStudyArea {
+  
+  background-color:WHITE;
+  margin-top: 20px;
 }
- 
+
+.caseStudy {  
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+#casestudyHeader {
+  text-align: center;
+}
+
+#epa {
+  display: inline-block;
+}
+
 h3 {
   font-family: 'Playfair Display';
-  font-size: 300%;
-  font-weight: 200;
-  float: left;
-  color: #7AA2AD;
-}
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 1px; 
+  box-align: center;
+  color:#856E71;
+} 
+
+
+/* FOOTER CSS */
 
 .footer {  
-  background-color: #373738;
+  display: flex;
+  background-color: #747474;
   padding: 10px;
   color: rgb(250, 241, 226);
- 
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+
 }
 
-.footer ul {  
-  display: inline;
-  font-size: 14px;
+.footer li {  
+  font-size: 12px;
   font-weight: lighter;
-  float: right;
+  display: inline-block;
+}
+
+.socialIcons{
+  float: left;
 }

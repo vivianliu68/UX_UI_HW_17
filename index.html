@@ -5,22 +5,32 @@
   <title>Vivian Home Page</title>
   <link href="css/indexstyle.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.google.com/specimen/Playfair+Display' rel='stylesheet'>
-
+  <link href='https://fonts.google.com/specimen/Source+Sans+Pro?category=Serif,Sans+Serif&preview.text=&preview.text_type=custom' rel='stylesheet'>
+ 
 </head>
 <body>
-  
+  <!DOCTYPE html>
+<html>
+<head>
+  <link href="css/indexstyle.css" rel="stylesheet" type="text/css">
+  <title>About Me</title>
+  <link href='https://fonts.google.com/specimen/Playfair+Display' rel='stylesheet'>
+  <style> 
+  </style>
+</head>
+
+<body> 
 <!-- Nav HTML -->
- 
+
 <header>
     <nav class="topNav">
       <div class="logo topNav">
-        <img class="logo" src="images/mylogo.png">
+        <a href="index.html"><img class="logo" src="images/mylogo.png"></a>
       </div>
       <div>
         <ul>
-          <a href="../UX_UI_HW_17/about.html"><li>ABOUT</li></a>
-          <li>UX/UI</li>
-          <li>VISUAL</li>
+          <li>WORK</li>
+          <a href="about.html"><li>ABOUT</li></a>
          <li>CONTACT</li>
          <li>RESUME</li>
        </ul>
@@ -28,31 +38,55 @@
       </nav>
   </header>
  
-  <!-- Body HTML -->
-   <section>
-    <div class="emptyBox"></div>
-    <div class="sectionBox">
-   
-			<div class="aboutme">
-        <a href="../UX_UI_HW_17/about.html"><h1>ABOUT<br>ME</h1></a>
-			</div>
-			<div class="uxui">
-				<h2>UX/UI&nbsp;CASE<br>STUDIES</h2>
-			</div>
-			<div class="visual">
-      <h3>VISUAL<br>DESIGN</h3>
-			</div>
+  <!-- HERO HTML -->
+ 
+<section id="intro"> 
+  <div class="categoryGridArea">
+    <div class="hiVivian">
+      <h2>Hi, I am Vivian.</h2>
     </div>
-    <div class="emptyBox"></div>
-    </section>
+  </div>  
+  <div class="categoryGridArea">
+    <div class="about">
+      <h1>I am a UX/UI & Visual<br> designer living in<br> Orange County.</h1>
+      <img src="images/Viv-portrait.png" alt="About Vivian">
+    </div>
+  </div>
+</section>
 
-  <!-- Footer HTML -->
-  <section class="footer">
+<!-- CASE STYDU HTML -->
+ 
+<section> 
+  <div>
+    <div id="casestudyHeader">
+      <h3>UX/UI CASE STUDIES</h3>
+    </div>
+  </div> 
+
+  <div class="caseStudyArea">
+    <div class="caseStudy">
+      <img id="epa" src="images/EPA-card.png" alt="EPA">
+    </div>
+   <div class="caseStudy">
+      <img id="buzzle" src="images/buzzle-card.png" alt="Buzzle">
+    </div>
+  </div>
+</section>
+
+<!-- Footer HTML -->
+<section class="socialIcons footer">
+    <div class="footer">
+      <img class="socialIcons" src="images/sm-icons.png"><li>Copyright © 2020 Vivian Liu. </li></div>
+      <div class="footer"></div>
       <div class="footer">
-        <img src="images/sm-icons.png">
-        <ul>Copyright © 2020 Vivian Liu.  All rights reserved. </ul><ul>Email me at: vivian91776@yahoo.com</ul>
-      </div>
-  </section>
+        <li>WORK</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+        <li>RESUME</li>
+        </div>
+    </div>
+</section>
   </body>
   
 </html>
+
