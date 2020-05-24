@@ -1,112 +1,149 @@
 body {
   font-family: 'open sans', sans-serif;
+  color: #7AA2AD;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 /* NAVI CSS */
-
-nav {
-  background-color: white;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 100;
-  text-decoration: none;
-  width: 100%;
+header {
+  position: sticky;
+  top: 0px;
+  background-color:rgba(255, 255, 255, 0.9);
+  padding: 18px; 
 }
 
-.topNav {
+#navBar {
   display: flex;
-  text-decoration: none;
-  margin-right: 40px;
+  flex-direction: row;
+  margin: 0px 4%;
+}
+
+#logo {
+  display: flex;
+  width: 70%;
+}
+
+
+#navigation {
+  display: flex;
+  width: 30%;
   align-items: center;
-  padding: 8px;
-  color: #7AA2AD;   
-  
-}
-  
-.logo {
-  width: 80px;
-  background-color: white;
-  margin-right: 10px;
+  justify-content: space-evenly;
 }
 
-ul {
-  list-style-type: none;
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
 }
 
-li {
-  display: inline;
-  padding: 12px;
+.highlight {
+  color: #856E71;
+  font-weight: 500;
 }
   
 
 /* HERO CSS */
 
 #intro {
-  background-color: #E0D3D4;
-  margin-left: 80px;
-  margin-top: 10px;
+  background-color: #E0D3D4; 
+  padding: 0 80px;
 }
   
-.categoryGridArea { 
-  background-color: #E0D3D4;
+.heroGridArea {  
   width: 100%;
   height: 100%;
   margin: 0px;
-}
-  
-.hiVivian {
-  display:inline-block;
+  display: grid;
+  grid-template-rows: 10% 50% 40%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+  "hiViv hiViv"
+  "about vivPic"
+  "downArrow downArrow";
 }
 
-.about {
-  display:inline-block;
+#hiViv {
+  grid-area: hiViv;
+  float: left; 
+  margin-top: 40px;
 } 
+
+#about {
+  grid-area: about;
+} 
+
+#vivPic {
+  grid-area: vivPic;
+} 
+
+#downArrow {
+  grid-area: downArrow;
+  padding-bottom: 50px;
+  margin: 0px 50%;
+}
 
 h1 {
   font-family: 'Playfair Display';
   font-size: 94px;
   font-weight: 100;
   letter-spacing: 2px; 
-  float: left;
   color: white;
 } 
 
 h2 {
   font-family: 'Playfair Display';
+  font-size: 36px;
   font-style: italic;
-  font-size: 38px;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 1px; 
-  float: left;
   color:#7E6266;
 } 
 
+
 /* CASE STUDY CSS */ 
-
-#caseStudyArea {
-  
-  background-color:WHITE;
-  margin-top: 20px;
-}
-
-.caseStudy {  
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-}
 
 #casestudyHeader {
   text-align: center;
+  padding: 100px;
+  grid-area: casestudyHeader;
+}
+
+.caseStudyArea {  
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 20% 40% 40%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "casestudyHeader casestudyHeader"
+  "epa buzzle"
+  "easytrek feedoc";
 }
 
 #epa {
-  display: inline-block;
+  grid-area: epa;
 }
+
+#buzzle {
+  grid-area: buzzle;
+}
+
+#easytrek {
+  grid-area: easytrek;
+}
+
+#feedoc {
+  grid-area: feedoc;
+}
+
+
 
 h3 {
   font-family: 'Playfair Display';
-  font-size: 50px;
+  font-size: 54px;
   font-weight: 100;
   letter-spacing: 1px; 
   box-align: center;
@@ -135,4 +172,33 @@ h3 {
 
 .socialIcons{
   float: left;
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.preloader img {
+  animation: spin 3s ease;
+  transition: all;
+  width: 200px;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
 }

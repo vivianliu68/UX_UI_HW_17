@@ -1,5 +1,8 @@
 body {
   font-family: 'open sans', sans-serif;
+  color: #7AA2AD;
+  font-size: 16px;
+  font-weight: 300;
   background-image: url("../images/aboutme-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,38 +10,40 @@ body {
   background-size: 100% 100%;
 }
 
-nav {
-  background-color: white;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 100;
-  text-decoration: none;
-  width: 100%;
+header {
+  position: sticky;
+  top: px;
+  background-color:rgba(255, 255, 255, 0.9);
+  padding: 18px; 
 }
 
-.topNav {
+#navBar {
   display: flex;
-  text-decoration: none;
-  margin-right: 40px;
+  flex-direction: row;
+  margin: 0px 4%;
+}
+
+#logo {
+  display: flex;
+  width: 70%;
+}
+
+
+#navigation {
+  display: flex;
+  width: 30%;
   align-items: center;
-  padding: 8px;
-  color: #7AA2AD;   
-  
-}
-  
-.logo {
-  width: 80px;
-  background-color: white;
-  margin-right: 10px;
+  justify-content: space-evenly;
 }
 
-ul {
-  list-style-type: none;
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
 }
 
-li {
-  display: inline;
-  padding: 12px;
+.highlight {
+  color: #856E71;
+  font-weight: 500;
 }
   
 /* Category Grid CSS */
