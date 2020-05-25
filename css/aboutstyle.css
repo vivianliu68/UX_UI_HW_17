@@ -1,20 +1,32 @@
 body {
-  font-family: 'open sans', sans-serif;
+  font-family: 'Roboto';
   color: #7AA2AD;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
-  background-image: url("../images/aboutme-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  letter-spacing: 1px; 
 }
 
+/* NAVI CSS */
 header {
   position: sticky;
-  top: px;
+  top: 0px;
   background-color:rgba(255, 255, 255, 0.9);
-  padding: 18px; 
+  padding: 24px; 
+}
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: #7AA2AD;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7AA2AD;
+  text-decoration: none;
 }
 
 #navBar {
@@ -28,7 +40,6 @@ header {
   width: 70%;
 }
 
-
 #navigation {
   display: flex;
   width: 30%;
@@ -38,60 +49,27 @@ header {
 
 #navigation p {
   cursor: pointer;
-  text-decoration: none;
 }
 
-.highlight {
-  color: #856E71;
-  font-weight: 500;
-}
-  
+ 
 /* Category Grid CSS */
 
-h1 {
-  font-family: 'Playfair Display';
-  font-size: 24px;
-  font-weight: 100;
-  letter-spacing: 3px; 
-  float: left;
-  color:#314E4E
-} 
+section {
+  background: #DFE3E5 url("images/aboutme-bg.png") no-repeat top;
+  background-position: center;
+  background-size: cover;
+}
 
 p {
   line-height: 170%;
-  font-family: 'open sans';
+  font-family: 'Roboto';
   font-weight: 200;
   font-size: 14px;
   color: #1F1F1F;
   letter-spacing: 1px;
 }
 
-.footer {  
-  display: flex;
-  background-color: #747474;
-  padding: 10px;
-  color: rgb(250, 241, 226);
-  justify-content: flex-start;
-  width: 100%;
-  align-items: center;
-
-}
-
-.footer li {  
-  font-size: 12px;
-  font-weight: lighter;
-  display: inline-block;
-}
-
-.socialIcons{
-float: left;
-}
-
-/* Category Grid CSS */
-
-  
   #categoryGrid {
-    margin: 10px 5%;
     display: grid;
     grid-template-rows: 240px 320px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -101,10 +79,7 @@ float: left;
   }
 
   .categoryGridArea {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
+    margin: 0px;
     display: grid;
     align-content: top;
   }
@@ -140,7 +115,26 @@ float: left;
     grid-area: vivian; 
   }
   
-  
-  
-  /* body ends */
-  /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
+
+/* FOOTER CSS */
+
+#footer {
+  color: lightblue;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 4%;
+  padding: 30px; 
+}
+
+#socialIcons{
+  margin-right: 100px;
+  display: flex;
+  width: 70%;
+}
+
+footer {
+  background-color:#747474;
+}
+
+
