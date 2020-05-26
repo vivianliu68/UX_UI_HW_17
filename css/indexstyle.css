@@ -10,7 +10,7 @@ body {
 header {
   position: sticky;
   top: 0px;
-  background-color:rgba(255, 255, 255, 0.9);
+  background-color:rgba(255, 255, 255);
   padding: 24px; 
 }
 /* mouse over link */
@@ -129,15 +129,22 @@ h3 {
   padding-top: 80px;
 } 
 
+.casestudyBg {
+  background-color:#F8F7F4;
+  padding:22px;
+  margin: 0px;
+}
+
 #casestudyGrid {
-  margin: 0px 5%;
+  margin: 0px ;
   display: grid;
+  padding: 40px;
   grid-template-rows: 500px 500px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "epa buzzle"
   "feedoc esytrek";
-  padding: 40px;
+  
 }
 
 #epa {
@@ -185,7 +192,6 @@ h3 {
   z-index: auto;
 }
 
-
 h5 {
   font-family: 'Roboto';
   color: white;
@@ -199,9 +205,13 @@ h5 {
   line-height: 22px;
 }
 
-
-
 /*CONTACT  FORM*/
+
+.contactBg {
+  background-color:#F2F4F5;
+  padding:22px;
+  margin: 0px;
+}
 
 .block_element {
   width: 600px;
