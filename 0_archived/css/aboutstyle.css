@@ -70,7 +70,7 @@ p {
   letter-spacing: 1px;
 }
 
-  #aboutGrid {
+  #categoryGrid {
     display: grid;
     grid-template-rows: 240px 40px 320px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -81,13 +81,13 @@ p {
     padding: 30px;
   }
 
-  .aboutGridArea {
- 
+  .categoryGridArea {
+    
     display: grid;
     align-content: top;
   }
   
-  .aboutHeading {
+  .heading {
     font-family: 'Playfair Display';
     padding: 15px;
     height: 25px;
