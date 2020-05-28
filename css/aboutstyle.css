@@ -65,9 +65,9 @@ p {
   line-height: 170%;
   font-family: 'Roboto';
   font-weight: 200;
-  font-size: 14px;
+  font-size: 16px;
   color: #1F1F1F;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
 }
 
   #categoryGrid {
