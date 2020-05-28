@@ -386,7 +386,7 @@ footer {
   margin: 0 auto;
 } */
 
-.bounceMe {
+/* .bounceMe {
   animation: bounceArrow .7s infinite;
 }
 
@@ -413,7 +413,7 @@ footer {
   to {
     margin-top: 0px;
   }
-}
+} */
 
 @media only screen and (max-width: 600px) {
   body {
