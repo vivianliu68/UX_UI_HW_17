@@ -76,7 +76,6 @@ a:visited {
   "hiViv hiViv"
   "about vivPic"
   "downArrow downArrow";
- 
 }
 
 #hiViv {
@@ -105,6 +104,7 @@ a:visited {
   animation: bounceArrow .7s infinite;
 }
 
+/* Hero headline */
 h1 {
   font-family: 'Playfair Display';
   font-size: 72px;
@@ -113,6 +113,7 @@ h1 {
   color: white;
 } 
 
+/* Hero sub-headline */
 h2 {
   font-family: 'Playfair Display';
   font-size: 40px;
@@ -122,13 +123,27 @@ h2 {
   color:#5F422B;
 } 
 
+/* Section main header */
+h3 {
+  font-family: 'Playfair Display';
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 1px; 
+  color:#856E71;
+  text-align: center;
+  padding-top: 50px;
+} 
 
-/* CASE STUDY CSS */ 
-
-#work {
-  background-color:#F8F7F4;
+/* Empty Box for anchor link */
+.sectionHead {
+  width: 10px;
+	height: 30px;
 }
 
+/* Case Study Grids */ 
+#caseStudy {
+  background-color:#F8F7F4;
+}
 
 #casestudyGrid {
   margin: 0px;
@@ -141,21 +156,15 @@ h2 {
   "feedoc esytrek";
 }
 
-.sectionHead {
-  width: 10px;
-	height: 30px;
-
+.casestudyGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 30px;
+  cursor: pointer;
+  display: grid;
+  align-content: top;
 }
-
-h3 {
-  font-family: 'Playfair Display';
-  font-size: 50px;
-  font-weight: 100;
-  letter-spacing: 1px; 
-  color:#856E71;
-  text-align: center;
-  padding-top: 50px;
-} 
 
 #epa {
   grid-area: epa;
@@ -177,18 +186,8 @@ h3 {
   background-image: url("../images/easytrek-card.png");
 }
 
-
-.casestudyGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 30px;
-  cursor: pointer;
-  display: grid;
-  align-content: top;
-}
-
-.heading {
+/* Case Study Card Main Head */
+.casestudyHeader {
   font-family: 'Playfair Display';
   font-size: 46px;
   font-weight: 100;
@@ -202,6 +201,7 @@ h3 {
   z-index: auto;
 }
 
+/* Case Study Card Sub Head */
 h5 {
   font-family: 'Roboto';
   color: white;
@@ -215,17 +215,7 @@ h5 {
   line-height: 22px;
 }
 
-/* Category Grid CSS */
-
-
-#aboutMe {
-  background: #F4E8E3 url("../images/aboutme-bg.png") no-repeat top;
-  background-position: center;
-  background-size: cover;
-  padding:20px;
-  height: 1000px;
-}
-
+/* About me body text */
 h6 {
   line-height: 170%;
   font-family: 'Roboto';
@@ -235,9 +225,22 @@ h6 {
   letter-spacing: 1px;
 }
 
+#aboutMe {
+  background: #F4E8E3 url("../images/aboutme-bg.png") no-repeat top;
+  background-position: center;
+}
+
+h6 {
+  line-height: 150%;
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 16px;
+  color: #1F1F1F;
+  letter-spacing: 1px;
+}
+
   .aboutHeading {
     font-family: 'Playfair Display';
-    padding: 15px;
     height: 25px;
     color: #856E71;
     font-size: 26px;
@@ -245,37 +248,37 @@ h6 {
     letter-spacing: 3px; 
   }
   
+  #aboutText {
+    margin:0px 70px 0px 432px;
+  }
+
 
   .vivL {
     float: left;
-    padding: 10px;
+    padding:50px;
   }
 
-  
-
-  .right  {
-    float: left;
-    height: 800px;
-    width: 50%;
-    text-align: left;
-    align-items: flex-start;
-    padding: 20px;
-  }
 
   .container {
     display: flex;
-    flex-direction: row;
+    flex-flow: column wrap;
+    align-items: stretch;
   }
 
-  
-  .card {
-    display: inline-block;
-    border-radius: 5px;
-    height: 200px;
-    width: 220px;
-    margin: 15px;
-    margin-top: 20px;
+  .flexItem {
+    margin:10px 70px 100px 10px;
   }
+
+  .flex {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+  }
+ 
+  #row {
+    flex-direction: row;
+  }
+  
   
 
 
@@ -283,8 +286,7 @@ h6 {
 
 .contactBg {
   background-image: linear-gradient(to bottom, rgba(232,245,252,1), rgba(252,238,231,1));
-  padding:22px;
-  margin: 0px;
+  width: 100%;
 }
 
 .block_element {
@@ -292,6 +294,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   padding: 10px;
+  
 }
 
 input {
